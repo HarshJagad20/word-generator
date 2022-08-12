@@ -2,9 +2,9 @@
 
 namespace Harsh\WordGenerator\Tests;
 
+use Harsh\WordGenerator\WordGeneratorServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Harsh\WordGenerator\WordGeneratorServiceProvider;
 
 class TestCase extends Orchestra
 {

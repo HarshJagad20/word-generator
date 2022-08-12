@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Harsh\WordGenerator\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class WordGeneratorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'word-generator';
 
     public $description = 'My command';
 

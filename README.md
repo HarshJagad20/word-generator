@@ -37,16 +37,19 @@ php artisan vendor:publish --tag="word-generator-views"
 ## Usage
 
 ```php
-// enter count to get random words. (default: 5)
+enter count to get random words. (default: 5)
 $wordGenerator = new Harsh\WordGenerator();
 
-//to get all random words
+to get all random words
 echo $wordGenerator->all(5);
-//to get random nouns
+
+to get random nouns
 echo $wordGenerator->nouns(5);
-//to get random verbs
+
+to get random verbs
 echo $wordGenerator->verbs(5);
-//to get random adjectives
+
+to get random adjectives
 echo $wordGenerator->adjectives(5);
 ```
 
